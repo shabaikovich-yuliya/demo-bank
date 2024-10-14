@@ -14,13 +14,13 @@ public class UseAccount {
         yourAccount.balance = 55.63;
         myAccount.display();
         out.print(" плюс $");
-        out.printf("$%4.2f\n", myAccount.getInterest(5.00));
+        out.printf("$%4.2f", myAccount.getInterest(5.00));
         out.println(" дохода");
         yourAccount.display();
         double yourInterestRate = 7.00;
         out.print(" плюс $");
         double yourInerestAmount = yourAccount.getInterest(yourInterestRate);
-        out.printf("$%4.2f\n", yourInerestAmount);
+        out.printf("$%4.2f", yourInerestAmount);
         out.print(" дохода");
     }
 }
